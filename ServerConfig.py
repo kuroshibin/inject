@@ -31,6 +31,8 @@ class Sets:
         self.VALHDR2 = ''
         self.CUSHDR3 = ''
         self.VALHDR3 = ''
+        self.CUSHDR4 = ''
+        self.VALHDR4 = ''
         self.KEEP = ''
         self.RHTTP = 0
         self.RHTTPS = 1
