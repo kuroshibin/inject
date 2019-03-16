@@ -15,9 +15,9 @@
 ###############__CONF__###############
 BIND_ADDR = '127.0.0.1'
 BIND_PORT = 8080
-PROXT_ADDR = '10.4.4.4'
+PROXT_ADDR = 'sg4.contassh.us'
 PROXY_PORT = 8080
-PAYLOAD = 'CONNECT [host_port]@www.trueplookpanya.com.ac.th [protocol][crlf]Host: www.trueplookpanya.com.ac.th[crlf]X-Online-Host: www.trueplookpanya.com.ac.th[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]'
+PAYLOAD = 'CONNECT [host_port] [protocol][crlf]Host: www.trueplookpanya.com.ac.th[crlf]X-Online-Host: www.trueplookpanya.com.ac.th[crlf]Connection: Keep-Alive[crlf][crlf]'
 
 
 import socket
